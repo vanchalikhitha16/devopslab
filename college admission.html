@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<body>
+
+    <h2>Login</h2>
+
+    <form action="#" method="post">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" 
+               placeholder="Enter your email" required>
+
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" 
+               placeholder="Enter your password" required>
+
+        <br><br>
+
+        <input type="checkbox" id="remember" name="remember">
+        <label for="remember">Remember Me</label>
+
+        <br><br>
+
+        <input type="submit" value="Login">
+
+        <input type="reset" value="Clear">
+
+    </form>
+
+    <p>
+        Don't have an account?
+        <a href="register.html">Register</a>
+    </p>
+
+    <p>
+        <a href="#">Forgot Password?</a>
+    </p>
+
+</body>
+</html>
+
+How it works
+<input type="email"> — accepts an email address.
+<input type="password"> — hides the password while typing.
+required — prevents submission if the field is empty.
+<input type="submit"> — creates the Login button.
+<a href="register.html"> — links to your registration page.
+
+This is only the front-end HTML. To make the login actually authenticate users, you'll need a backend and database.
